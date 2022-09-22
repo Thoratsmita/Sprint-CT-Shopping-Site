@@ -1,0 +1,32 @@
+<div class="background-image" src="/assets/background-image.jpg">
+<div class="data">
+    <mat-card class="main-container">
+        <div class="container">
+            <h2 class="heading">Login Form</h2>
+            <div class="main">
+                <form [formGroup]="loginForm" class="formDesign">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input matInput formControlName="Email">
+                        <mat-icon matSuffix>email</mat-icon>
+                        <mat-error *ngIf="!loginForm.controls['Email'].valid && loginForm.controls['Email'].touched">
+                            Email is required
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput formControlName="Password">
+                        <mat-icon matSuffix>password</mat-icon>
+                        <mat-error
+                            *ngIf="!loginForm.controls['Password'].valid && loginForm.controls['Password'].touched">
+                            Password is required</mat-error>
+                    </mat-form-field>
+                    <div class="buttons">
+                    <button mat-raised-button (click)="signIn()" routerLink="/admin/dashboard">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </mat-card>
+</div>
+</div>

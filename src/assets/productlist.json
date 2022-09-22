@@ -1,0 +1,114 @@
+{
+    "productList": [{
+      "id": 101,
+      "name": "T-Shirt",
+      "price": 499,
+      "quantity": 2,
+      "category": "Clothing",
+      "image" : "/assets/clothes-Tshirt.jpg"
+    }, {
+      "id": 102,
+      "name": "Tops",
+      "price": 399,
+      "quantity": 4,
+      "category": "Clothing",
+      "image" : "/assets/clothes-top.jpg"
+    }, {
+      "id": 103,
+      "name": "Jeans",
+      "price": 899,
+      "quantity": 3,
+      "category": "Clothing",
+      "image" : "/assets/clothes-jeans.jpg"
+    }, {
+      "id": 104,
+      "name": "Sarees",
+      "price": 1499,
+      "quantity": 3,
+      "category": "Clothing",
+      "image" : "/assets/saree.jpg"
+    }, {
+      "id": 201,
+      "name": "Kettle",
+      "price": 749,
+      "quantity": 2,
+      "category": "Appliances",
+      "image" : "/assets/Appliances-kettle.jpg"
+    }, {
+      "id": 202,
+      "name": "Vacuum Cleaner",
+      "price": 4699,
+      "quantity": 1,
+      "category": "Appliances",
+      "image" : "/assets/Appliances-vaccum-cleaner.jpg"
+    }, {
+      "id": 203,
+      "name": "Electric Grill",
+      "price": 1898,
+      "quantity": 2,
+      "category": "Appliances",
+      "image" : "/assets/electricgrill.jpg"
+
+    }, {
+      "id": 204,
+      "name": "Water Heater",
+      "price": 596,
+      "quantity": 4,
+      "category": "Appliances",
+      "image" : "/assets/Appliances-water-heater.jpg"
+    }, {
+      "id": 301,
+      "name": "Multigrain Energy Bars",
+      "price": 400,
+      "quantity": 2,
+      "category": "Healthy Food",
+      "image" : "/assets/Multigrain EnergyBars.jpg"
+
+    }, {
+      "id": 302,
+      "name": "Mixed Nuts",
+      "price": 424,
+      "quantity": 3,
+      "category": "Healthy Food",
+      "image" : "/assets/mixed-nuts.jpg"
+    }, {
+      "id": 303,
+      "name": "Breakfast Protein variety",
+      "price": 290,
+      "quantity": 5,
+      "category": "Healthy Food",
+      "image" : "/assets/breakfast-protien-variety.jpg"
+    }, {
+      "id": 304,
+      "name": "Flavored Melts",
+      "price": 280,
+      "quantity": 3,
+      "category": "Healthy Food",
+      "image" : "/assets/flavered-melts.jpg"
+
+    }, {
+      "id": 401,
+      "name": "Hand Sanitizer",
+      "price": 100,
+      "quantity": 2,
+      "category": "Essentials",
+      "image" : "/assets/hand-sanitizer.jpg"
+
+    }, {
+      "id": 402,
+      "name": "Face Mask",
+      "price": 40,
+      "quantity": 4,
+      "category": "Essentials",
+      "image" : "/assets/face-masks.jpg"
+
+    }, {
+      "id": 403,
+      "name": "Hand Wash",
+      "price": 75,
+      "quantity": 2,
+      "category": "Essentials",
+      "image" : "/assets/hand-wash.jpg"
+
+    }]
+  }

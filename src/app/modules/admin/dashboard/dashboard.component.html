@@ -1,0 +1,82 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span> Spring-CT</span>
+  <div class="form-group">
+    <input type="" placeholder="Search Product" class="form-control">
+  </div>
+  <span class="search-icon">
+    <mat-icon>search</mat-icon>
+  </span>
+  <span class="example-spacer"></span>
+
+  <button mat-raised-button color="primary" routerLink="/auth/login">Sign In</button>
+  <button mat-icon-button class="example-icon favorite-icon">
+    <span class="material-icons">notifications</span>
+  </button>
+  <button mat-icon-button class="example-icon">
+    <span class="material-icons">person</span>
+  </button>
+
+  <button mat-raised-button color="primary" routerLink="/admin/cart">
+    <mat-icon routerLink="/admin/cart">add_shopping_cart</mat-icon>
+    {{totalItem}}
+  </button>
+</mat-toolbar>
+
+
+
+
+<div class="cart-top">
+  <div class="container">
+    <div class="item">
+      <a>
+        <img class="images" src="/assets/clothes-Tshirt.jpg" alt="">
+        <h6> Clothing </h6>
+      </a>
+    </div>
+    <div class="item">
+      <a>
+        <img class="images" src="/assets/Appliances-kettle.jpg" alt="">
+        <h6> Appliances </h6>
+      </a>
+    </div>
+    <div class="item">
+      <a>
+        <img class="images" src="/assets/mixed-nuts.jpg" alt="">
+        <h6> Healthy Food </h6>
+      </a>
+    </div>
+    <div class="item">
+      <a>
+        <img class="images" src="/assets/hand-wash.jpg" alt="">
+        <h6> Essentials </h6>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card-container">
+  <div class="demo">
+  <div class="row grid">
+    <div class="shopping-data col" *ngFor="let productList of data">
+      <div class="card col">
+        <div class="col">
+        <img src="{{productList.image}}" alt="" class="images">
+        <div class="datalist">
+          <h5 >ID: {{productList.id}}</h5>
+          <p>Name: {{productList.name}}</p>
+          <p>Price: {{productList.price}}</p>
+          <p>Quantity: {{productList.quantity}}</p>
+          <p>Category: {{productList.category}}</p>
+          <button class="addCartButton" mat-raised-button color="primary" (click)="addToCart(productList)">Add To Cart</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
